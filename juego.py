@@ -12,7 +12,7 @@ def JuegoAdivinanza():
 
     while True:
         try:
-            intento = int(input("Adivina el número: "))
+            intento = int(input("Adivina el número secreto: "))
             intentos += 1
 
             if intento < NumSecreto:
